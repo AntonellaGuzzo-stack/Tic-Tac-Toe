@@ -96,9 +96,9 @@ function showEndGame(winner){
     finJuego.classList.add("show");
 
     if(winner){
-        resultado.textContent = `¡${turnoX ? "X" : "O"} ha ganado el juego!`;
+       swal( resultado.textContent = `¡${turnoX ? "X" : "O"} ha ganado el juego!`);
     }else{
-        resultado.textContent = `¡El juego se ha empatado!`;
+       swal( resultado.textContent = `¡El juego se ha empatado!`);
     }
 }
 
